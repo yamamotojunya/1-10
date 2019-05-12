@@ -1,0 +1,646 @@
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  color:#000000;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*ここからheader*/
+
+header{
+	height:70px;
+	width:auto;
+	background-color: #EC715F;
+}
+
+.header-box{
+	height:70px;
+	width:1024px;
+	margin: 0 auto;
+	text-align:right;
+}
+
+.header-box img{
+	height: 70px;
+	float:left;
+}
+
+.header-nav{
+	float:right;
+}
+
+.nav-list-item{
+	font-size:16px;
+	color:#FAFAFA;
+	padding: 23px 30px;
+	list-style: none;
+  	display: inline-block;
+}
+
+
+#nav-drawer{
+	display:inline-block;
+}
+
+#nav-input{
+	display:none;
+}
+
+.nav-content{
+	display:inline-block;
+}
+
+
+
+/*ここからメインビジュアル*/
+main{
+	background-image: url(img/mv.png);
+	background-size: cover;
+	height:650px;
+	width:100%;
+}
+
+main h1,main p{
+	text-align: center;
+	color:#FAFAFA;
+}
+
+main h1{
+	font-size: 64px;
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+main p{
+	font-size: 20px;
+}
+
+/*ここからポートフォリオ*/
+
+.portfolio-back{
+	background-color: #ECEFF1;
+}
+
+.portfolio{
+	width:920px;
+	margin:0 auto;
+	padding-bottom: 90px;
+}
+
+.portfolio-text{
+	text-align:center;
+}
+
+.portfolio-text h2{
+	padding-top:90px;
+	padding-bottom:8px;
+	line-height:32px;
+	font-size:32px;
+}
+
+.portfolio-text .border{
+	height:3px;
+	width:70px;
+	border-top:solid  3px #EC715F;
+	margin:0 auto;
+}
+
+.portfolio-text p{
+	margin:30px auto;
+	font-size:16px;
+}
+
+.portfolio-box div{
+	height:250px;
+	width:300px;
+	background-size:cover;
+	background-position:center
+}
+
+.portfolio-img{
+	float:left;
+}
+
+.p1{
+	background-image:url(img/sketch.jpg);
+	margin-bottom:10px;
+}
+
+.p2{
+	background-image:url(img/websuku.png);
+	margin:0 10px 10px 10px;
+}
+
+.p3{
+	background-image:url(img/write.jpg);
+	margin-bottom:10px;
+}
+
+.p4{
+	background-image:url(img/webcamp.png);
+	margin-right:10px;
+}
+
+.p5{
+	background-image:url(img/talk.jpg);
+}
+
+.p6{
+	background-image:url(img/webcamp-mother.png);
+	margin-left:10px;
+}
+
+/*ここからフィーチャー*/
+
+.feature{
+	width:980px;
+	margin:0 auto;
+}
+
+.feature-text{
+	text-align:center;
+}
+
+.feature-text h2{
+	margin-top:90px;
+	padding-bottom:8px;
+	font-size:32px;
+	line-height:32px;
+}
+
+.feature-text .border{
+	height:3px;
+	width:70px;
+	border-top:solid  3px #EC715F;
+	margin:0 auto;
+}
+
+.feature-text p{
+	margin:30px auto;
+	font-size:16px;
+}
+
+.feature-img{
+	width:320px;
+	height:auto;
+	margin-bottom:90px;
+	float:left;
+}
+
+.s2{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.feature-img i{
+	font-size:60px;
+	width:100%;
+	text-align: center;
+}
+
+.feature-img h3{
+	font-size: 20px;
+	text-align:center;
+	margin: 10px 0;
+	line-height: 20px;
+}
+
+.feature-img p{
+	font-size:16px;
+}
+
+/*ここからプロフィール*/
+
+.p-background{
+	background-color:#ECEFF1;
+}
+
+.profile{
+	width:1024px;
+	margin:0 auto;
+}
+
+.profile-text{
+	text-align:center;
+}
+
+.profile-text h2{
+	padding-top:90px;
+	padding-bottom:8px;
+	line-height:32px;
+	font-size:32px;
+}
+
+.profile-text .border{
+	height:3px;
+	width:70px;
+	border-top:solid  3px #EC715F;
+	margin:0 auto;
+}
+
+.profile-text p{
+	margin:30px auto;
+	font-size:16px;
+}
+
+.profile-box{
+	padding-bottom:90px;
+}
+
+.profile-img,.my{
+	width:512px;
+	float:left;
+}
+
+ .profile-img img{
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+	display:block;
+	margin:auto;
+}
+
+.myname h3{
+	font-size:20px;
+}
+
+.myskills h3{
+	font-size: 20px;
+	padding-top:20px;
+}
+
+.myname p,.myskills p{
+	font-size:16px;
+	padding-top:5px;
+}
+
+/*ここからコンタクト*/
+
+.contact{
+	width:800px;
+	margin:0 auto;
+}
+
+.contact-text{
+	text-align:center;
+}
+
+.contact-text h2{
+	padding-top:90px;
+	padding-bottom:8px;
+	line-height:32px;
+	font-size:32px;
+}
+
+.contact-text .border{
+	height:3px;
+	width:70px;
+	border-top:solid  3px #EC715F;
+	margin:0 auto;
+}
+
+.contact-text p{
+	margin:30px auto;
+	font-size:16px;
+}
+
+.address,.sns{
+	width:400px;
+	float:left;
+	text-align: center;
+}
+
+.mail,.tell,.sns-box{
+	width:171px;
+	margin:0 auto;
+	text-align: left;
+}
+
+.contact h3{
+	font-size:20px;
+}
+
+.sns-icon i{
+	font-size:50px;
+	padding-top:5px;
+}
+
+.fa-twitter{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.contact-box p a{
+	padding-top:5px;
+}
+
+.tell{
+	padding-top:20px;
+}
+
+.contact-box{
+	padding-bottom:90px;
+}
+
+/*ここからフッター*/
+
+footer{
+	line-height:60px;
+}
+
+.footer-box{
+	width:auto;
+	height:60px;
+	background-color: #EC715F;
+}
+
+.footer-box p{
+	text-align: center;
+	font-size:16px;
+	color:#FAFAFA;
+}
+
+/*レスポンシブ対応*/
+
+@media screen and (max-width:768px){
+
+body{
+	width:100%;
+	margin:0 auto;
+}
+
+
+
+/*ここからヘッダー*/
+
+header{
+	height:50px;
+	background-color: #EC715F;
+}
+
+.header-box{
+	width:90%;
+	height:50px;
+}
+
+.header-box img{
+	height: 50px;
+}
+
+.header-nav{
+	float:right;
+}
+
+.nav-list-item{
+	font-size:16px;
+	color:#FAFAFA;
+	padding: 23px 30px;
+	list-style: none;
+  	display: inline-block;
+}
+
+/*ここからハンバーガー*/
+
+/*メニュー部分*/
+#ham-menu {
+    background-color: #EC715F; /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 40px; /*メニュー内部上下左右余白*/
+    position: absolute;
+    right: -300px; /*メニュー横幅①と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 300px; /*メニュー横幅①*/
+    z-index: 1000;
+}
+
+/*メニューアイコン部分は疑似要素で*/
+#ham-menu::before {
+    background-color: #EC715F; /*ボタン部分背景色*/
+    border:solid 1px;
+    color: #FAFAFA; /*アイコン（フォント）色*/
+    content: "≡"; /*メニューアイコン*/
+    display: block;
+    font-size: 40px; /*アイコン（フォント）サイズ*/
+    height: 38px;
+    line-height:40px; /*縦位置中央化*/
+    position: absolute;
+    right: 110%;
+    text-align: center;
+    top: 5px;
+    bottom: 5px;
+    width: 38px;
+}
+
+/*透過背景部分*/
+#menu-background {
+    background-color: #333; /*黒背景部分背景色*/
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 100%;
+    z-index: -1;
+}
+
+/*hover 時の処理*/
+#ham-menu:hover {
+    transform: translate(-300px); /*メニュー横幅①と合わせる*/
+}
+
+#ham-menu:hover + #menu-background {
+    opacity: 0.5; /*黒背景部分透過度*/
+    z-index: 999;
+}
+
+/*ここからメインビジュアル*/
+
+main{
+	background-image: url(img/code.png);
+	background-size: cover;
+	height:650px;
+	width:100%;
+	text-align: center;
+}
+
+.main-visual{
+	width:90%;
+	margin-left:5%;
+}
+
+main h1,main p{
+	text-align: center;
+	color:#FAFAFA;
+}
+
+main h1{
+	font-size: 40px;
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+main p{
+	font-size:18px;
+}
+
+/*ここからポートフォリオ*/
+
+.portfolio{
+	width:90%;
+	margin:0 5%;
+	padding-bottom: 90px;
+}
+
+.portfolio-text{
+	text-align:center;
+}
+
+.portfolio-text h2{
+	padding-top:90px;
+	padding-bottom:8px;
+	line-height:32px;
+	font-size:32px;
+}
+
+.portfolio-text .border{
+	height:3px;
+	width:70px;
+	border-top:solid  3px #EC715F;
+	margin:0 auto;
+}
+
+.portfolio-text p{
+	margin:30px auto;
+	font-size:16px;
+}
+
+.portfolio-box div{
+	height:250px;
+	width:300px;
+	background-size:cover;
+	background-position:center;
+	float:none;
+}
+
+.p1{
+	display:none;
+}
+
+.p2{
+	background-image:url(img/websuku.png);
+	margin:0 auto;
+}
+
+.p3{
+	display:none;
+}
+
+.p4{
+	background-image:url(img/webcamp.png);
+	margin:10px auto;
+}
+
+.p5{
+	display:none;
+}
+
+.p6{
+	background-image:url(img/webcamp-mother.png);
+	margin:0 auto;
+}
+
+/*ここからフィーチャー*/
+
+.feature{
+	width:90%;
+	margin:0 5%;
+}
+
+.feature-box{
+	width:90%;
+	margin:0 5%;
+}
+
+.feature-img{
+	width:100%;
+	float:none;
+	margin-bottom:10px;
+}
+
+.feature-img h3{
+	font-size: 20px;
+	text-align:center;
+	margin: 10px 0;
+	line-height: 20px;
+}
+
+.feature-img p{
+	font-size:16px;
+}
+
+.s2{
+	padding-top: 10px;
+}
+
+.s3 p{
+	margin-bottom:90px;
+}
+
+/*ここからプロフィール*/
+
+.p-background{
+	width:100%;
+}
+
+.profile{
+	width:90%;
+}
+
+.profile-text{
+	text-align:center;
+}
+
+.profile-img,.my{
+	width:90%;
+	margin:0 5%;
+}
+
+.myname h3{
+	padding-top:20px;
+}
+
+.myname h3,.myskills h3,.myname p,.myskills p{
+	text-align:center;
+}
+
+
+/*ここからコンタクト*/
+
+.contact{
+	width:90%;
+}
+
+.address,.sns{
+	width:100%;
+}
+
+.mail,.tell,.sns-box{
+	width:100%;
+	text-align: center;
+}
+
+.sns-box h3{
+	padding-top:20px;
+}
+
+}
